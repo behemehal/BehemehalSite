@@ -11,6 +11,7 @@ export default {
       colors: {
         primary: "#AA2129",
         primaryDark: "#420004",
+        techCardColor: "#462B45"
       }
     }
   }
