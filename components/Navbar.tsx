@@ -10,10 +10,8 @@ export default function Navbar() {
         <p class="text-2xl text-white ml-1">Behemehal</p>
       </div>
       <div class="flex flex-row pt-3 ml-auto align-middle">
-        <a class="text-white mr-4" href="/docs">Teknolojiler</a>
-        <a class="text-white mr-4" href="/docs">Çözümler</a>
-        <a class="text-white mr-4" href="/docs">Blog</a>
-        <a class="text-white mr-4" href="/docs">Haberler</a>
+        <a class="text-white mr-4" href="/#technologies">Technologies</a>
+        <a class="text-white mr-4" href="/#solutions">Solutions</a>
       </div>
     </section>
   );
