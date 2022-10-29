@@ -1,5 +1,4 @@
 import { Head } from "$fresh/runtime.ts";
-import Counter from "../islands/Counter.tsx";
 import HeadCustom from "../components/HeadCustom.tsx";
 import Navbar from "../components/Navbar.tsx";
 import { GitHubIcon } from "../components/extraIcons.tsx";
