@@ -13,7 +13,7 @@
     "description": "Open source solutions to the open source world",
     "theme": {
         "colors": {
-            "frame": "#ffffff",
+            "frame": "#420004",
             "tab_background_text": "#ffffff"
         }
     }
