@@ -9,7 +9,7 @@ import Footer from "../components/Footer.tsx";
 export default function Home() {
   return (
     <div class="w-full h-full flex flex-col">
-      <HeadCustom title="Behemehal" description="Açık kaynak dünyaya, Açık kaynak çözümler" url="https://www.ellie-lang.org" />
+      <HeadCustom title="Behemehal" description="Open source solutions to Open source world" url="https://behemehal.org" />
       <Navbar />
       {/* Intro */}
       <section class="w-full h-[550px] p-12 bg-primaryDark">

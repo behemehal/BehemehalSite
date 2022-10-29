@@ -11,6 +11,8 @@ export default function HeadCustom(props: HeaderProps) {
     return (
         <Head>
             <title>{props.title}</title>
+            {/* Language */}
+            <meta name="language" content="en" />
 
             {/* Primary Meta Tags */}
             <meta property="og:type" content="website" />
