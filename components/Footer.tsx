@@ -1,6 +1,6 @@
 import { useState } from "preact/hooks";
 import { Button } from "../components/Button.tsx";
-import { GitHubIcon } from "./extraIcons.tsx";
+import { GitHubIcon } from "./ExtraIcons.tsx";
 
 
 export default function Footer() {

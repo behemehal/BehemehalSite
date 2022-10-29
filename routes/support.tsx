@@ -1,7 +1,7 @@
 import { Head } from "$fresh/runtime.ts";
 import HeadCustom from "../components/HeadCustom.tsx";
 import Navbar from "../components/Navbar.tsx";
-import { GitHubIcon } from "../components/extraIcons.tsx";
+import { GitHubIcon } from "../components/ExtraIcons.tsx";
 import TechCard from "../components/TechCard.tsx";
 import SolutionsCard from "../components/SolutionsCard.tsx";
 import Footer from "../components/Footer.tsx";
