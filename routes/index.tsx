@@ -28,8 +28,8 @@ export default function Home() {
         <div class="grid justify-items-center sm:grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 3xl:grid-cols-4 gap-5">
           <TechCard title="Ellie-Language" description="A type-safe programing language that runs on embedded and sandboxed environments." image={
             <img
-              src="/img/bBrand/main.min.png"
-              alt="Behemehal Logo: Red square with b letter inside also rounded corners"
+              src="img/bProducts/EllieCharIcon.png"
+              alt="Ellie Language Logo: E I letters colored purple and background colored whitesish pink"
             />
           } links={[{
             link: "https://github.com/behemehal/Ellie-Language",
@@ -44,7 +44,7 @@ export default function Home() {
             }}>dns</span>
           } links={
             [{
-              link: "https://github.com/behemehal/Ellie-Language",
+              link: "https://github.com/behemehal/SafeEn",
               icon: GitHubIcon({ width: 25, height: 25, color: "white" })
             }]} />
           <TechCard title="event_listener" description="NodeJS like Event Listener library for dart!" image={
@@ -56,7 +56,7 @@ export default function Home() {
             }}>compare_arrows</span>
           } links={
             [{
-              link: "https://github.com/behemehal/Ellie-Language",
+              link: "https://github.com/behemehal/event_listener",
               icon: GitHubIcon({ width: 25, height: 25, color: "white" })
             }]} />
           <TechCard title="rust_event_listener" description="NodeJS like Event Listener library for rust!" image={
@@ -68,7 +68,7 @@ export default function Home() {
             }}>compare_arrows</span>
           } links={
             [{
-              link: "https://github.com/behemehal/Ellie-Language",
+              link: "https://github.com/behemehal/rust_event_listener",
               icon: GitHubIcon({ width: 25, height: 25, color: "white" })
             }]} />
           <TechCard title="Menemen" description="A streaming http/https request library" image={
@@ -80,7 +80,7 @@ export default function Home() {
             }}>compare_arrows</span>
           } links={
             [{
-              link: "https://github.com/behemehal/Ellie-Language",
+              link: "https://github.com/behemehal/menemen",
               icon: GitHubIcon({ width: 25, height: 25, color: "white" })
             }]} />
         </div>

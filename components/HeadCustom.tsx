@@ -82,6 +82,12 @@ export default function HeadCustom(props: HeaderProps) {
                 rel="stylesheet"
             />
             <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+            <script async src="https://www.googletagmanager.com/gtag/js?id=G-GC9WXSW0YK"></script>
+            <script>
+                {
+                    "window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments)}gtag('js', new Date());gtag('config', 'G-GC9WXSW0YK');"
+                }
+            </script>
         </Head>
     );
 }
