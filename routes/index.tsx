@@ -34,6 +34,14 @@ export default function Home() {
           } links={[{
             link: "https://github.com/behemehal/Ellie-Language",
             icon: GitHubIcon({ width: 25, height: 25, color: "white" })
+          }, {
+            link: "https://www.ellie-lang.org",
+            icon: <span class="material-symbols-outlined" style={{
+              marginLeft: "0.5rem",
+              fontSize: "25px",
+              width: 25, height: 25,
+              color: "white"
+            }}>language</span>
           }]} />
           <TechCard title="SafeEn" description="Local database solution for situations that requires strict data integrity and absolute portability" image={
             <span class="material-symbols-outlined" style={{
