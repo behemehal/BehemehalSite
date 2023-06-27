@@ -3,9 +3,13 @@ import { Button } from "../components/Button.tsx";
 import { GitHubIcon } from "./ExtraIcons.tsx";
 
 
-export default function Footer() {
+export interface FooterProps {
+    showAttribute?: boolean;
+}
+
+export default function Footer(props?: FooterProps) {
     return (
-        <section class="w-full text-white h-[220px] px-4 text-white text-center justify-center bg-black">
+        <section class={`w-full text-white h-[${props?.showAttribute ? '250px' : '210px'}] px-4 text-white text-center justify-center bg-black`}>
             <img src="/img/bBrand/main.min.png" class="h-[40px] w-[40px] block ml-auto mr-auto mt-5 mb-2" alt="Behemehal Logo: Red square with b letter inside also rounded corners" />
             <p class="text-sm">
                 Behemehal
@@ -25,6 +29,12 @@ export default function Footer() {
                     <GitHubIcon width={25} height={25} color={"white"} />
                 </a>
             </div>
+            {
+                props.showAttribute && (<p class="text-sm mt-2 mb-3">
+                    Google Play and the Google Play logo are trademarks of Google LLC.
+                </p>)
+            }
+
         </section>
     );
 }

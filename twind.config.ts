@@ -5,6 +5,7 @@ export default {
   theme: {
     extend: {
       screens: {
+        exsm: { max: "540px" },
         smTechCard: "640px",
         mdTechCard: "768px",
         lgTechCard: "1024px",
@@ -18,8 +19,8 @@ export default {
       colors: {
         primary: "#AA2129",
         primaryDark: "#420004",
-        techCardColor: "#462B45"
-      }
-    }
-  }
+        techCardColor: "#462B45",
+      },
+    },
+  },
 } as Options;

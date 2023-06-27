@@ -13,7 +13,7 @@ export default function Home() {
             <Navbar />
             {/* 404 */}
             <section class="w-full h-screen min-h-[550px] p-12 bg-primaryDark text-center">
-                <div class="bg-black rounded-lg h-auto min-h-[220px] pt-12 pl-6">
+                <div class="mt-[20px] bg-black rounded-lg h-auto min-h-[220px] pt-12 pl-6">
                     <p class="text-white text-6xl">404</p>
                     <p class="text-white text-4xl mt-3">Page not found</p>
                 </div>

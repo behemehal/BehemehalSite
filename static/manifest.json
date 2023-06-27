@@ -1,13 +1,25 @@
 {
     "default_locale": "en",
-    "icons": {
-        "16": "icons/favicon-16x16.png",
-        "32": "icons/favicon-32x32.png",
-        "48": "icons/favicon.png",
-        "96": "icons/android-chrome-96x96.png",
-        "192": "icons/android-chrome-192x192.png",
-        "256": "icons/android-chrome-256x256.png"
-    },
+    "icons": [
+        {
+            "16": "icons/favicon-16x16.png"
+        },
+        {
+            "32": "icons/favicon-32x32.png"
+        },
+        {
+            "48": "icons/favicon.png"
+        },
+        {
+            "96": "icons/android-chrome-96x96.png"
+        },
+        {
+            "192": "icons/android-chrome-192x192.png"
+        },
+        {
+            "256": "icons/android-chrome-256x256.png"
+        }
+    ],
     "name": "Behemehal",
     "short_name": "Behemehal",
     "description": "Open source solutions to the open source world",
