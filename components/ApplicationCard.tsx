@@ -37,7 +37,7 @@ export default function AppCard(props: AppCardProps) {
                     }
                 </div>
             </div>
-            <div class="flex gap-5 w-3/4 justify-self-end exsm:justify-self-center exsm:mt-5 snap-x snap-mandatory overflow-x-auto overflow-y-hidden">
+            <div class="flex gap-5 justify-end justify-self-end exsm:justify-self-center exsm:mt-5 snap-x snap-mandatory overflow-x-auto overflow-y-hidden">
                 {
                     props.screenShots.map((src) => (
                         <div class="snap-center">
