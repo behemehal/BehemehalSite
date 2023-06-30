@@ -4,9 +4,9 @@ import MobileMenu from "../islands/mobileMenu.tsx";
 
 export default function Navbar() {
   return (
-    <section class="w-full h-[50px] px-4 flex flex-row bg-primaryDark fixed">
+    <section class="w-full h-[50px] px-4 flex flex-row bg-primaryDark fixed z-50">
       <div class="flex flex-row pt-[9px]">
-        <img src="/img/bBrand/main.min.png" class="h-[30px] w-[30px]" alt="Behemehal Logo: Red square with b letter inside also rounded corners" />
+        <img src="/img/bBrand/main.min.webp" class="h-[30px] w-[30px]" alt="Behemehal Logo: Red square with b letter inside also rounded corners" />
         <p class="exsm:hidden text-2xl text-white ml-1">Behemehal</p>
       </div>
       <div class="flex flex-row pt-3 ml-auto align-middle exsm:hidden">

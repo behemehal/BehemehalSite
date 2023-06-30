@@ -4,8 +4,8 @@ import { Button } from "../components/Button.tsx";
 
 export interface Links {
     link: string;
-    //icon element
     icon: any;
+    label: string;
 }
 
 export interface TechCardProps {
@@ -34,7 +34,7 @@ export default function TechCard(props: TechCardProps) {
                         {
                             props.links.map((link) => {
                                 return (
-                                    <a class="text-black text-lg" href={link.link}>
+                                    <a aria-label={link.label} class="text-black text-lg" href={link.link}>
                                         {link.icon}
                                     </a>
                                 )

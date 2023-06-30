@@ -21,6 +21,8 @@
         }
     ],
     "name": "Behemehal",
+    "start_url": "/",
+    "display": "standalone",
     "short_name": "Behemehal",
     "description": "Open source solutions to the open source world",
     "theme": {

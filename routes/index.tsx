@@ -27,14 +27,14 @@ export default function Home() {
         <h1 id="technologies" class="text-4xl text-white p-12">Applications</h1>
         <br />
         <div class="">
-          <AppCard title="Wole" icon="/img/apps/wole/icon.png" description="Wake-On-Lan App" screenShots={["/img/apps/wole/1.png", "/img/apps/wole/2.png"]} platforms={[
+          <AppCard title="Wole" icon="/img/apps/wole/icon.webp" description="Wake-On-Lan App" screenShots={["/img/apps/wole/1.webp", "/img/apps/wole/2.webp"]} platforms={[
             {
               link: "https://play.google.com/store/apps/details?id=com.behemehal.wole",
-              icon: "/img/google-play-badge.png"
+              icon: "/img/google-play-badge.webp"
             },
             {
               link: "https://github.com/behemehal/WoleApp",
-              icon: "/img/github-mark-white.png",
+              icon: "/img/github-mark-white.webp",
               width: 50,
               height: 50,
               imageStyle: {
@@ -46,14 +46,14 @@ export default function Home() {
               }
             },
           ]} backgroundColor="#1a202c" />
-          <AppCard title="Bnots" icon="/img/apps/bnots/icon.png" description="Markdown Notes" screenShots={["/img/apps/bnots/1.webp", "/img/apps/bnots/2.webp"]} platforms={[
+          <AppCard title="Bnots" icon="/img/apps/bnots/icon.webp" description="Markdown Notes" screenShots={["/img/apps/bnots/1.webp", "/img/apps/bnots/2.webp"]} platforms={[
             {
               link: "https://play.google.com/store/apps/details?id=com.behemehal.bnots",
-              icon: "/img/google-play-badge.png"
+              icon: "/img/google-play-badge.webp"
             },
             {
               link: "https://github.com/behemehal/Bnots",
-              icon: "/img/github-mark-white.png",
+              icon: "/img/github-mark-white.webp",
               width: 50,
               height: 50,
               imageStyle: {
@@ -77,14 +77,16 @@ export default function Home() {
               width={96}
               height={96}
               className="exsm:display-block exsm:ml-auto exsm:mr-auto"
-              src="img/bProducts/EllieCharIcon.png"
+              src="img/bProducts/EllieCharIcon.webp"
               alt="Ellie Language Logo: E I letters colored purple and background colored whitesish pink"
             />
           } links={[{
             link: "https://github.com/behemehal/Ellie-Language",
+            label: 'GitHub Icon',
             icon: GitHubIcon({ width: 25, height: 25, color: "white" })
           }, {
             link: "https://www.ellie-lang.org",
+            label: 'Ellie-Language Website',
             icon: <span class="material-symbols-outlined" style={{
               marginLeft: "0.5rem",
               fontSize: "25px",
@@ -102,6 +104,7 @@ export default function Home() {
           } links={
             [{
               link: "https://github.com/behemehal/SafeEn",
+              label: 'GitHub Icon',
               icon: GitHubIcon({ width: 25, height: 25, color: "white" })
             }]} />
           <TechCard title="event_listener" description="NodeJS like Event Listener library for dart!" image={
@@ -114,7 +117,8 @@ export default function Home() {
           } links={
             [{
               link: "https://github.com/behemehal/event_listener",
-              icon: GitHubIcon({ width: 25, height: 25, color: "white" })
+              icon: GitHubIcon({ width: 25, height: 25, color: "white" }),
+              label: 'GitHub Icon',
             }]} />
           <TechCard title="rust_event_listener" description="NodeJS like Event Listener library for rust!" image={
             <span class="material-symbols-outlined" style={{
@@ -126,7 +130,8 @@ export default function Home() {
           } links={
             [{
               link: "https://github.com/behemehal/rust_event_listener",
-              icon: GitHubIcon({ width: 25, height: 25, color: "white" })
+              icon: GitHubIcon({ width: 25, height: 25, color: "white" }),
+              label: 'GitHub Icon',
             }]} />
           <TechCard title="Menemen" description="A streaming http/https request library" image={
             <span class="material-symbols-outlined" style={{
@@ -138,7 +143,8 @@ export default function Home() {
           } links={
             [{
               link: "https://github.com/behemehal/menemen",
-              icon: GitHubIcon({ width: 25, height: 25, color: "white" })
+              icon: GitHubIcon({ width: 25, height: 25, color: "white" }),
+              label: 'GitHub Icon',
             }]} />
         </div>
       </section >
@@ -164,11 +170,11 @@ export default function Home() {
             description={
               "Planning and developing projects with modern web technologies"
             }
-            techsImageUrl="/img/tech1.png"
+            techsImageUrl="/img/tech1.webp"
           />
           <SolutionsCard
             icon={
-              <img width="96px" alt="tech-brands" class="block ml-auto mr-auto mt-2" src="/img/controller.png" />
+              <img alt="embedded software development icon" width="96px" class="block ml-auto mr-auto mt-2" src="/img/controller.webp" />
             }
             title={
               "Embedded Software Development"
@@ -176,7 +182,7 @@ export default function Home() {
             description={
               "Developing projects for embedded devices"
             }
-            techsImageUrl="/img/tech2.png"
+            techsImageUrl="/img/tech2.webp"
           />
           <SolutionsCard
             icon={
@@ -195,7 +201,7 @@ export default function Home() {
             description={
               "Planning and developing projects with mobile technologies"
             }
-            techsImageUrl="/img/tech3.png"
+            techsImageUrl="/img/tech3.webp"
           />
         </div>
         <p class="text-white text-center mt-12">
